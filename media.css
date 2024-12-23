@@ -16,6 +16,12 @@
 .w-1{
     width: 100%;
 }
+.w-1-5{
+    width: 66.66%;
+}
+.w-3-2{
+    width: 66.66%;
+}
 
 
 @media(max-width:1399px){
