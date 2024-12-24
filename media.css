@@ -22,7 +22,9 @@
 .w-3-2{
     width: 66.66%;
 }
-
+.hide{
+    display: none;
+}
 
 @media(max-width:1399px){
     .w-xl-5{
@@ -40,6 +42,10 @@
     .w-xl-1{
         width: 100%;
     }
+    .xl-show{
+        display: block;
+    }
+
 }
 
 
@@ -59,6 +65,15 @@
     .hide-lg{
         display: none;
     }
+    .hide-lg{
+        display: none;
+    }
+    .lg-hide{
+        display: none;
+    }
+    .lg-show{
+        display: block;
+    }
 }
 
 
@@ -74,6 +89,20 @@
     }
     .w-md-1{
         width: 100%;
+    }
+    .md-hide{
+        display: none;
+    }
+    .md-show{
+        display: block;
+    }
+    .nav{
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .order{
+        order:10
     }
 }
 
@@ -91,6 +120,12 @@
     .w-sm-1{
         width: 100%;
     }
+    .sm-hide{
+        display: none;
+    }
+    .sm-show{
+        display: block;
+    }
 }
 
 
@@ -107,6 +142,13 @@
     .w-xs-1{
         width: 100%;
     }
+    .xs-hide{
+        display: none;
+    }
+    .xs-show{
+        display: block;
+    }
 }
+
 
 

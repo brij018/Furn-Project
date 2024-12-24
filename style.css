@@ -29,6 +29,14 @@
     font-family: "Roboto Serif", serif;
     color: #616060;
 }
+.menu{
+    padding: 5px;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid orange;
+    border-radius:5px;
+    color: orange;
+}
 
 
 /* top-banner */
